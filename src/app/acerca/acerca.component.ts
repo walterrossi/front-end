@@ -9,7 +9,7 @@ import { PersonaService } from '../service/persona.service';
 })
 export class AcercaComponent implements OnInit {
 
-persona: persona=new persona("","","","","","","","","","","","","","","","","");  /*aca van los campos para leer db mysql   */
+persona: persona=new persona("","","","","","","","","","","","","","","","","","","","","","","");  /*aca van los campos para leer db mysql   */
    
   constructor(public personaService: PersonaService) { }
 

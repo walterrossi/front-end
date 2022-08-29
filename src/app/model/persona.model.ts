@@ -18,6 +18,14 @@ export class persona{
     hardsoft_java: String;
     hardsoft_mysql: String;
 
+    hardsoft_comunicacion: String;
+    hardsoft_creatividad: String;
+    hardsoft_pensamientocritico: String;
+    hardsoft_liderazgo: String;
+    hardsoft_gestiondeltiempo: String;
+    hardsoft_actitudpositiva: String;
+
+
     proyecto: String;
     proyectoImg1: String;
   
@@ -46,6 +54,16 @@ export class persona{
         hardsoft_mysql: String,
 
 
+        hardsoft_comunicacion: String,
+        hardsoft_creatividad: String,
+        hardsoft_pensamientocritico: String,
+        hardsoft_liderazgo: String,
+        hardsoft_gestiondeltiempo: String,
+        hardsoft_actitudpositiva: String,
+    
+
+
+
         proyecto: String,
         proyectoImg1: String,
         
@@ -72,6 +90,15 @@ export class persona{
         this.hardsoft_angular=hardsoft_angular;
         this.hardsoft_java=hardsoft_java;
         this.hardsoft_mysql=hardsoft_mysql;
+
+
+        this.hardsoft_comunicacion=hardsoft_comunicacion;
+        this.hardsoft_creatividad=hardsoft_creatividad;
+        this.hardsoft_pensamientocritico=hardsoft_pensamientocritico;
+        this.hardsoft_liderazgo=hardsoft_liderazgo;
+        this.hardsoft_gestiondeltiempo= hardsoft_gestiondeltiempo;
+        this.hardsoft_actitudpositiva=hardsoft_actitudpositiva;
+    
 
 
 

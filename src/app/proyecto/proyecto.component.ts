@@ -8,7 +8,7 @@ import { PersonaService } from '../service/persona.service';
   styleUrls: ['./proyecto.component.css']
 })
 export class ProyectoComponent implements OnInit {
-  persona: persona=new persona("","","","","","","","","","","","","","","","","");  /*aca van los campos para leer db mysql   */
+  persona: persona=new persona("","","","","","","","","","","","","","","","","","","","","","","");  /*aca van los campos para leer db mysql   */
   constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void { this.personaService.getPersona().subscribe(data=> (this.persona=data))  //aca pone esto para poder levantarlo en el componente

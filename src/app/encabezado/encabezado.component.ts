@@ -8,7 +8,7 @@ import { PersonaService } from '../service/persona.service';
   styleUrls: ['./encabezado.component.css']
 })
 export class EncabezadoComponent implements OnInit {
-  persona: persona=new persona("","","","","","","","","","","","","","","","",""); 
+  persona: persona=new persona("","","","","","","","","","","","","","","","","","","","","","",""); 
   constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void { this.personaService.getPersona().subscribe(data=> (this.persona=data))  //aca pone esto para poder levantarlo en el componente
