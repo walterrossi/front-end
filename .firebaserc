@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfoliowr-2022"
-  }
+    "default": "walrossi22",
+    "walrossi22": "walrossi22"
+  },
+  "targets": {},
+  "etags": {}
 }
