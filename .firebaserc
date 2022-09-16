@@ -1,14 +1,5 @@
 {
   "projects": {
     "default": "portfoliowr-2022"
-  },
-  "targets": {
-    "portfoliowr-2022": {
-      "hosting": {
-        "portfolio": [
-          "portfoliowr-2022"
-        ]
-      }
-    }
   }
 }

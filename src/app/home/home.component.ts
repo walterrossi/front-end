@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
   }).catch((error) => {
     // An error happened.
   });
-    ///-------///
+    ///-------///  //en home me tiene que direccionar a otra pagina con los iconos para editar, voy a tener que armar componentes editables///
     
     }
   }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { persona } from '../model/persona.model';
 import { PersonaService } from '../service/persona.service';
-
+import { EncabezadoService } from '../service/encabezado.service';
 @Component({
   selector: 'app-encabezado',
   templateUrl: './encabezado.component.html',

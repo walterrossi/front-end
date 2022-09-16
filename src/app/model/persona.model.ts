@@ -1,7 +1,7 @@
 export class persona{
     id?: Number;
     nombre: String;
-    apellido: String;
+    url_img_persona: String;
     acerca: String;
     experiencia: String;
     experienciaImg1: String;
@@ -34,7 +34,7 @@ export class persona{
 
     constructor(
         nombre: String,
-        apellido: String,   //falta agregar los otros campos
+        url_img_persona: String,   //falta agregar los otros campos
         acerca: String,
         educacion: String,
         educacionImg1: String,
@@ -70,7 +70,7 @@ export class persona{
 
     ){
         this.nombre= nombre;
-        this.apellido= apellido;
+        this.url_img_persona= url_img_persona;
         this.acerca= acerca;
         
         this.educacion=educacion;   

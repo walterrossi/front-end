@@ -1,0 +1,51 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Editar Encabezado de..
+  </button>
+
+
+  
+  <!-- Modal -->
+<div class="container">
+<form [formGroup]="form" (submit)="enviarEncabezadoNombre()">
+  <div class="formGroup">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Encabezado de..</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <label for="exampleFormControlTextarea1" class="form-label">Modifique el nombre de la persona:</label>
+       <!--<textarea formControlName="textAreaComentario" id="comentario"></textarea>-->
+           <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="textAreaComentario"> 
+         
+      <!--     <label for="exampleFormControlTextarea1" class="form-label">Nombre:</label> 
+           <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="textAreaComentario1">
+
+       <!--   <label for="exampleFormControlTextarea1" class="form-label">Educacion:</label> 
+          <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="educacion">
+
+          <label for="exampleFormControlTextarea1" class="form-label">Experiencia:</label>
+          <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="experiencia">
+
+          <label for="exampleFormControlTextarea1" class="form-label">HardSoft:</label>
+          <input type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="hardsoft">  
+       -->
+        </div> 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        <button type="submit" class="btn btn-primary" (click)="Ir_a_home()">Ir a Inicio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+</div>
+
+  
+

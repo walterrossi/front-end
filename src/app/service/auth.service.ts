@@ -38,9 +38,10 @@ export class AuthService {
         } else {
           localStorage.setItem('user', 'null');
           JSON.parse(localStorage.getItem('user')!);
+         
         }
       });
-
+      
 
     }
  
@@ -49,6 +50,7 @@ export class AuthService {
       return await this.afauth.signInWithEmailAndPassword(email,password);
     } catch (err){
        console.log("Error en el Login", err);
+       
        return null;
     }
   }
@@ -80,6 +82,13 @@ Logout() { console.log('Saliendo..');
   });
 }
 
+//agregue esto final 11-9-22//
+get isLoggedIn(): boolean {
+  const user = JSON.parse(localStorage.getItem('user')!);
+  return user !== 'null' ? true : false;
+}
+
+///////////////////////////
 
 
 
