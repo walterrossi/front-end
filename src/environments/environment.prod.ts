@@ -1,11 +1,12 @@
 export const environment = {
   firebase: {
-    projectId: 'portfoliowr-2022',
-    appId: '1:567439846605:web:7847d86893f03291260d84',
-    storageBucket: 'portfoliowr-2022.appspot.com',
-    apiKey: 'AIzaSyB9tw44OffzMP-oe_xmwQbkhwaVsscwRIc',
-    authDomain: 'portfoliowr-2022.firebaseapp.com',
-    messagingSenderId: '567439846605',
+    projectId: 'walrossi22',
+    appId: '1:732597210704:web:cea631fb5a1b4816c7cb55',
+    storageBucket: 'walrossi22.appspot.com',
+    apiKey: 'AIzaSyCw06p-XiMJTqxLG6YW6h4dji4-nKNKNy0',
+    authDomain: 'walrossi22.firebaseapp.com',
+    messagingSenderId: '732597210704',
+    measurementId: 'G-PQQTJZXWZ1',
   },
   production: true
 };

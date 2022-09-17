@@ -58,18 +58,23 @@ import { ModalMysqlComponent } from './modal-mysql/modal-mysql.component';
 import { ModalActitudpositivaComponent } from './modal-actitudpositiva/modal-actitudpositiva.component';
 
 
+import { getAnalytics } from "firebase/analytics";
 
 
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB9tw44OffzMP-oe_xmwQbkhwaVsscwRIc",
-  authDomain: "portfoliowr-2022.firebaseapp.com",
-  projectId: "portfoliowr-2022",
-  storageBucket: "portfoliowr-2022.appspot.com",
-  messagingSenderId: "567439846605",
-  appId: "1:567439846605:web:7847d86893f03291260d84"
+  apiKey: "AIzaSyCw06p-XiMJTqxLG6YW6h4dji4-nKNKNy0",
+  authDomain: "walrossi22.firebaseapp.com",
+  projectId: "walrossi22",
+  storageBucket: "walrossi22.appspot.com",
+  messagingSenderId: "732597210704",
+  appId: "1:732597210704:web:cea631fb5a1b4816c7cb55",
+  measurementId: "G-PQQTJZXWZ1"
 };
+//const app = initializeApp(firebaseConfig);
+
+
 
 @NgModule({
   declarations: [
